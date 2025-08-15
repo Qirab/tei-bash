@@ -23,7 +23,6 @@ if [[ ${BASH_VERSION%%.*} -lt 4 ]]; then
     exit 1
 fi
 
-set -o errexit   # Exit on error
 set -o pipefail  # Exit on pipe failure
 set -o nounset   # Exit on undefined variable (now safe with Bash 4)
 
@@ -189,11 +188,11 @@ handle_error() {
             ;;
         VALIDATION)
             log_message "ERROR" "$error_message"
-            ((TEI_validation_errors++))
+            TEI_validation_errors=$((TEI_validation_errors + 1))
             ;;
         WARNING)
             log_message "WARNING" "$error_message"
-            ((TEI_validation_warnings++))
+            TEI_validation_warnings=$((TEI_validation_warnings + 1))
             ;;
     esac
 }
@@ -357,7 +356,7 @@ validate_xml_structure() {
     log_message "DEBUG" "Validating XML structure for $file"
     
     # Check for XML declaration
-    if ! head -n 3 "$file" | grep -q "<?xml"; then
+    if ! head -n 3 "$file" | grep -q "<?xml" 2>/dev/null; then
         log_message "WARNING" "Missing XML declaration - may cause parsing issues"
     fi
     
@@ -368,14 +367,14 @@ validate_xml_structure() {
     # Check for basic TEI structure
     if ! [[ "$content" =~ \<TEI.*\> ]] && ! [[ "$content" =~ \<tei.*\> ]]; then
         log_message "WARNING" "No TEI root element found"
-        ((errors++))
+        errors=$((errors + 1))
     fi
     
     # Check for basic closing tag balance (simplified)
     local opening_count
     local closing_count
-    opening_count=$(grep -o '<[a-zA-Z][a-zA-Z0-9:._-]*[^>]*[^/]>' "$file" | wc -l || echo 0)
-    closing_count=$(grep -o '</[a-zA-Z][a-zA-Z0-9:._-]*>' "$file" | wc -l || echo 0)
+    opening_count=$(grep -o '<[a-zA-Z][a-zA-Z0-9:._-]*[^>]*[^/]>' "$file" 2>/dev/null | wc -l || echo 0)
+    closing_count=$(grep -o '</[a-zA-Z][a-zA-Z0-9:._-]*>' "$file" 2>/dev/null | wc -l || echo 0)
     
     # Allow for some difference (self-closing tags, etc.)
     if [[ $((opening_count - closing_count)) -gt 5 ]] || [[ $((closing_count - opening_count)) -gt 5 ]]; then
@@ -405,9 +404,7 @@ parse_tei_xml() {
     log_message "DEBUG" "Starting TEI XML parsing with Bash 4 native arrays"
     
     # Basic XML well-formedness check
-    if ! validate_xml_structure "$file"; then
-        handle_error "CRITICAL" "File is not well-formed XML or severely malformed" 1
-    fi
+    validate_xml_structure "$file"  # This function always returns 0, so no need to check
     
     # Read entire file for complex hierarchical parsing (safe memory handling)
     local file_content
@@ -509,7 +506,7 @@ parse_tei_xml() {
             fi
             # Remove matched content to find next occurrence (safe removal)
             temp_content="${temp_content/$matched_text/__PROCESSED_MATCH__}"
-            ((match_count++))
+            match_count=$((match_count + 1))
         done
         if [[ $match_count -ge 1000 ]]; then
             log_message "WARNING" "Maximum matches reached for entity $entity (possible infinite loop prevented)"
@@ -532,7 +529,7 @@ parse_tei_xml() {
             fi
             # Remove matched content to find next occurrence (safe removal)
             temp_content="${temp_content/$matched_text/__PROCESSED_MATCH__}"
-            ((match_count++))
+            match_count=$((match_count + 1))
         done
         if [[ $match_count -ge 1000 ]]; then
             log_message "WARNING" "Maximum matches reached for critical element $critical_elem (possible infinite loop prevented)"
@@ -1309,7 +1306,9 @@ execute_operation() {
             log_message "INFO" "Detected format: $format"
             
             # Parse the input file
-            parse_tei_xml "$TEI_input_file"
+            if ! parse_tei_xml "$TEI_input_file"; then
+                handle_error "CRITICAL" "Failed to parse TEI XML file" 1
+            fi
             
             # Display metadata
             display_metadata
@@ -1324,10 +1323,14 @@ execute_operation() {
             log_message "INFO" "Detected format: $format"
             
             # Parse the input file
-            parse_tei_xml "$TEI_input_file"
+            if ! parse_tei_xml "$TEI_input_file"; then
+                handle_error "CRITICAL" "Failed to parse TEI XML file" 1
+            fi
             
             # Validate TEI
-            validate_tei "$format"
+            if ! validate_tei "$format"; then
+                exit 1  # Exit with error code if validation failed
+            fi
             ;;
         write)
             # Build TEI XML from write data
@@ -1338,10 +1341,14 @@ execute_operation() {
             validate_file_security "$TEI_input_file"
             
             # Parse the input file
-            parse_tei_xml "$TEI_input_file"
+            if ! parse_tei_xml "$TEI_input_file"; then
+                handle_error "CRITICAL" "Failed to parse TEI XML file" 1
+            fi
             
             # Extract term
-            extract_term "$TEI_term_name"
+            if ! extract_term "$TEI_term_name"; then
+                exit 1  # Exit with error code if term extraction failed
+            fi
             ;;
         *)
             handle_error "CRITICAL" "Unknown operation: $TEI_operation" 1

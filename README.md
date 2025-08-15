@@ -1,6 +1,6 @@
 # tei-bash
 
-A streamlined bash script for processing TEI P5 XML documents with hierarchical metadata extraction, validation, and XML generation capabilities. Requires Bash 4.0 or higher.
+A bash script for processing TEI P5 XML documents with hierarchical metadata extraction, validation, and XML generation capabilities. Requires Bash 4.0 or higher.
 
 ## Usage
 
