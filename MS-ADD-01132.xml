@@ -1,0 +1,2072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msDesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msDesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1" version="5.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Add.1132</title>
+                <funder>JISC</funder>
+                <principal>Gillian Evison</principal>
+            </titleStmt>
+            <publicationStmt>
+                
+                <publisher>Cambridge University Library</publisher>
+                <pubPlace>
+                    <address>
+                  <addrLine>Department of Near and Middle Eastern Collections</addrLine>
+                  <addrLine>Cambridge University Library</addrLine>
+                  <street>West Road</street>
+                  <settlement>Cambridge</settlement>
+                  <postCode>CB3 9DR</postCode>
+                  <addrLine>
+                     <ref target="http://www.lib.cam.ac.uk/deptserv/neareastern/">Cambridge University Library
+                </ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>near_eastern@lib.cam.ac.uk</email>
+                  </addrLine>
+                </address>
+                </pubPlace>
+                <idno>UKCU</idno>
+                
+                <availability xml:id="displayImageRights" status="restricted" default="false">
+                    <p>Cambridge University Library</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted" default="false">
+                    <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Images made
+                        available for download are licensed under a Creative Commons
+                        Attribution-NonCommercial 4.0 Unported License (CC BY-NC 4.0)</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted" default="false">
+                    <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This
+                        metadata is licensed under a Creative Commons
+                        Attribution-NonCommercial 4.0 Unported License.</licence>
+                </availability>
+                
+            <availability xml:id="watermark" status="restricted">
+               <licence>Cambridge University Library (CC BY-NC 4.0)</licence>
+            </availability>
+         </publicationStmt>
+            <sourceDesc default="false">
+                <msDesc xml:id="OCIMCO" xml:lang="en">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region type="county">Cambridgeshire</region>
+                        <settlement>Cambridge</settlement>
+                        <institution>Cambridge University</institution>
+                        <repository>Cambridge University Library</repository>
+                        <collection>Oriental Manuscripts</collection>
+                        <idno>MS Add.1132</idno>
+                        <altIdentifier type="internal">
+                            <collection type="CUL_collection">islamic</collection>
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents defective="false">
+                        <summary>Abbasid Qur'ān probably written in the third or fourth century A.H.
+                            / ninth or tenth century C.E, containing verses 66-128 from <locus from="1r" to="1r" n="1">Sura al-Naḥl
+                                (سورة النحل)</locus>, the complete <locus from="22r" to="22r" n="1">Sura al-Isrāʾ (سورة الاسراء)</locus>, and verses 1-22
+                            from <locus from="53v" to="53v" n="3">Sura al-Kahf (سورة الكهف)</locus>.</summary>
+                        <msItem n="1" xml:id="a1" defective="false">
+
+                            <title xml:lang="ara-Latn-x-lc">al-Qurʼān</title>
+
+                            <title xml:lang="ara" type="uniform">القرآن</title>
+
+                            <title xml:lang="eng" type="desc">Qurʼān xvi:66-xviii:22</title>
+                            <listBibl default="false">
+                                <bibl default="false">
+                                    <ref target="http://www.lib.cam.ac.uk/arabic_catalogues/browne/view.php?id=91">no. 813</ref>
+                                </bibl>
+                                
+                            </listBibl>
+                            <textLang mainLang="ara">Arabic</textLang>
+                            <msItem defective="false">
+                                <locus from="1r" to="1r" n="1">f. 1r</locus>
+                                <title xml:lang="eng">Q. 16:66 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="1r" to="1r" n="5">f. 1r</locus>
+                                <title xml:lang="eng">Q. 16:67 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="1v" to="1v" n="2">f. 1v</locus>
+                                <title xml:lang="eng">Q. 16:68 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="1v" to="1v" n="6">f. 1v</locus>
+                                <title xml:lang="eng">Q. 16:69 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="2r" to="2r" n="6">f. 2r</locus>
+                                <title xml:lang="eng">Q. 16:70 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="2v" to="2v" n="4">f. 2v</locus>
+                                <title xml:lang="eng">Q. 16:71 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="3r" to="3r" n="3">f. 3r</locus>
+                                <title xml:lang="eng">Q. 16:72 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="3v" to="3v" n="4">f. 3v</locus>
+                                <title xml:lang="eng">Q. 16:73 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="4r" to="4r" n="1">f. 4r</locus>
+                                <title xml:lang="eng">Q. 16:74 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="4r" to="4r" n="4">f. 4r</locus>
+                                <title xml:lang="eng">Q. 16:75 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="4v" to="4v" n="4">f. 4v</locus>
+                                <title xml:lang="eng">Q. 16:76 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="5r" to="5r" n="4">f. 5r</locus>
+                                <title xml:lang="eng">Q. 16:77 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="5v" to="5v" n="2">f. 5v</locus>
+                                <title xml:lang="eng">Q. 16:78 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="6r" to="6r" n="1">f. 6r</locus>
+                                <title xml:lang="eng">Q. 16:79 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="6r" to="6r" n="6">f. 6r</locus>
+                                <title xml:lang="eng">Q. 16:80 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="6v" to="6v" n="7">f. 6v</locus>
+                                <title xml:lang="eng">Q. 16:81 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="7v" to="7v" n="1">f. 7v</locus>
+                                <title xml:lang="eng">Q. 16:82 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="7v" to="7v" n="3">f. 7v</locus>
+                                <title xml:lang="eng">Q. 16:83 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="7v" to="7v" n="5">f. 7v</locus>
+                                <title xml:lang="eng">Q. 16:84 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="8r" to="8r" n="2">f. 8r</locus>
+                                <title xml:lang="eng">Q. 16:85 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="8r" to="8r" n="6">f. 8r</locus>
+                                <title xml:lang="eng">Q. 16:86 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="8v" to="8v" n="6">f. 8v</locus>
+                                <title xml:lang="eng">Q. 16:87 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="9r" to="9r" n="2">f. 9r</locus>
+                                <title xml:lang="eng">Q. 16:88 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="9r" to="9r" n="6">f. 9r</locus>
+                                <title xml:lang="eng">Q. 16:89 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="9v" to="9v" n="6">f. 9v</locus>
+                                <title xml:lang="eng">Q. 16:90 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="10r" to="10r" n="5">f. 10r</locus>
+                                <title xml:lang="eng">Q. 16:91 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="10v" to="10v" n="3">f. 10v</locus>
+                                <title xml:lang="eng">Q. 16:92 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="11r" to="11r" n="5">f. 11r</locus>
+                                <title xml:lang="eng">Q. 16:93 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="11v" to="11v" n="3">f. 11v</locus>
+                                <title xml:lang="eng">Q. 16:94 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="12r" to="12r" n="2">f. 12r</locus>
+                                <title xml:lang="eng">Q. 16:95 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="12r" to="12r" n="6">f. 12r</locus>
+                                <title xml:lang="eng">Q. 16:96 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="12v" to="12v" n="3">f. 12v</locus>
+                                <title xml:lang="eng">Q. 16:97 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="13r" to="13r" n="1">f. 13r</locus>
+                                <title xml:lang="eng">Q. 16:98 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="13r" to="13r" n="4">f. 13r</locus>
+                                <title xml:lang="eng">Q. 16:99 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="13r" to="13r" n="6">f. 13r</locus>
+                                <title xml:lang="eng">Q. 16:100 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="13v" to="13v" n="2">f. 13v</locus>
+                                <title xml:lang="eng">Q. 16:101 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="13v" to="13v" n="7">f. 13v</locus>
+                                <title xml:lang="eng">Q. 16:102 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="14r" to="14r" n="4">f. 14r</locus>
+                                <title xml:lang="eng">Q. 16:103 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="14v" to="14v" n="1">f. 14v</locus>
+                                <title xml:lang="eng">Q. 16:104 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="14v" to="14v" n="5">f. 14v</locus>
+                                <title xml:lang="eng">Q. 16:105 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="15r" to="15r" n="1">f. 15r</locus>
+                                <title xml:lang="eng">Q. 16:106 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="15v" to="15v" n="1">f. 15v</locus>
+                                <title xml:lang="eng">Q. 16:107 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="15v" to="15v" n="5">f. 15v</locus>
+                                <title xml:lang="eng">Q. 16:108 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="16r" to="16r" n="3">f. 16r</locus>
+                                <title xml:lang="eng">Q. 16:109 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="16r" to="16r" n="5">f. 16r</locus>
+                                <title xml:lang="eng">Q. 16:110 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="16v" to="16v" n="3">f. 16v</locus>
+                                <title xml:lang="eng">Q. 16:111 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="16v" to="16v" n="6">f. 16v</locus>
+                                <title xml:lang="eng">Q. 16:112 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="17r" to="17r" n="7">f. 17r</locus>
+                                <title xml:lang="eng">Q. 16:113 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="17v" to="17v" n="4">f. 17v</locus>
+                                <title xml:lang="eng">Q. 16:114 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="18r" to="18r" n="1">f. 18r</locus>
+                                <title xml:lang="eng">Q. 16:115 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="18r" to="18r" n="6">f. 18r</locus>
+                                <title xml:lang="eng">Q. 16:116 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="18v" to="18v" n="7">f. 18v</locus>
+                                <title xml:lang="eng">Q. 16:117 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="19r" to="19r" n="1">f. 19r</locus>
+                                <title xml:lang="eng">Q. 16:118 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="19r" to="19r" n="6">f. 19r</locus>
+                                <title xml:lang="eng">Q. 16:119 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="19v" to="19v" n="4">f. 19v</locus>
+                                <title xml:lang="eng">Q. 16:120 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="19v" to="19v" n="7">f. 19v</locus>
+                                <title xml:lang="eng">Q. 16:121 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="20r" to="20r" n="3">f. 20r</locus>
+                                <title xml:lang="eng">Q. 16:122 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="20r" to="20r" n="5">f. 20r</locus>
+                                <title xml:lang="eng">Q. 16:123 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="20v" to="20v" n="1">f. 20v</locus>
+                                <title xml:lang="eng">Q. 16:124 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="20v" to="20v" n="6">f. 20v</locus>
+                                <title xml:lang="eng">Q. 16:125 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="21r" to="21r" n="6">f. 21r</locus>
+                                <title xml:lang="eng">Q. 16:126 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="21v" to="21v" n="2">f. 21v</locus>
+                                <title xml:lang="eng">Q. 16:127 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="21v" to="21v" n="5">f. 21v</locus>
+                                <title xml:lang="eng">Q. 16:128 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="22r" to="22r" n="1">f. 22r</locus>
+                                <title xml:lang="eng">Sura Subḥān (i.e. al-Isrāʾ): one-hundred and
+                                    ten verses (سورة سبحان مائة وعشر ايات) [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="22r" to="22r" n="1">f. 22r</locus>
+                                <title xml:lang="eng">Basmalla [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="22r" to="22r" n="3">f. 22r</locus>
+                                <title xml:lang="eng">Q. 17:1 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="22v" to="22v" n="1">f. 22v</locus>
+                                <title xml:lang="eng">Q. 17:2 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="22v" to="22v" n="5">f. 22v</locus>
+                                <title xml:lang="eng">Q. 17:3 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="22v" to="22v" n="7">f. 22v</locus>
+                                <title xml:lang="eng">Q. 17:4 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="23r" to="23r" n="4">f. 23r</locus>
+                                <title xml:lang="eng">Q. 17:5 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="23v" to="23v" n="3">f. 23v</locus>
+                                <title xml:lang="eng">Q. 17:6 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="23v" to="23v" n="7">f. 23v</locus>
+                                <title xml:lang="eng">Q. 17:7 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="24v" to="24v" n="1">f. 24v</locus>
+                                <title xml:lang="eng">Q. 17:8 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="24v" to="24v" n="4">f. 24v</locus>
+                                <title xml:lang="eng">Q. 17:9 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="25r" to="25r" n="2">f. 25r</locus>
+                                <title xml:lang="eng">Q. 17:10 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="25r" to="25r" n="5">f. 25r</locus>
+                                <title xml:lang="eng">Q. 17:11 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="25v" to="25v" n="1">f. 25v</locus>
+                                <title xml:lang="eng">Q. 17:12 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="26r" to="26r" n="1">f. 26r</locus>
+                                <title xml:lang="eng">Q. 17:13 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="26r" to="26r" n="5">f. 26r</locus>
+                                <title xml:lang="eng">Q. 17:14 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="26r" to="26r" n="7">f. 26r</locus>
+                                <title xml:lang="eng">Q. 17:15 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="26v" to="26v" n="6">f. 26v</locus>
+                                <title xml:lang="eng">Q. 17:16 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="27r" to="27r" n="3">f. 27r</locus>
+                                <title xml:lang="eng">Q. 17:17 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="27r" to="27r" n="7">f. 27r</locus>
+                                <title xml:lang="eng">Q. 17:18 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="27v" to="27v" n="5">f. 27v</locus>
+                                <title xml:lang="eng">Q. 17:19 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="28r" to="28r" n="1">f. 28r</locus>
+                                <title xml:lang="eng">Q. 17:20 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="28r" to="28r" n="5">f. 28r</locus>
+                                <title xml:lang="eng">Q. 17:21 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="28v" to="28v" n="2">f. 28v</locus>
+                                <title xml:lang="eng">Q. 17:22 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="28v" to="28v" n="4">f. 28v</locus>
+                                <title xml:lang="eng">Q. 17:23 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="29r" to="29r" n="4">f. 29r</locus>
+                                <title xml:lang="eng">Q. 17:24 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="29v" to="29v" n="1">f. 29v</locus>
+                                <title xml:lang="eng">Q. 17:25 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="29v" to="29v" n="4">f. 29v</locus>
+                                <title xml:lang="eng">Q. 17:26 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="30r" to="30r" n="1">f. 30r</locus>
+                                <title xml:lang="eng">Q. 17:27 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="30r" to="30r" n="4">f. 30r</locus>
+                                <title xml:lang="eng">Q. 17:28 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="30v" to="30v" n="1">f. 30v</locus>
+                                <title xml:lang="eng">Q. 17:29 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="30v" to="30v" n="4">f. 30v</locus>
+                                <title xml:lang="eng">Q. 17:30 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="31r" to="31r" n="1">f. 31r</locus>
+                                <title xml:lang="eng">Q. 17:31 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="31r" to="31r" n="4">f. 31r</locus>
+                                <title xml:lang="eng">Q. 17:32 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="31r" to="31r" n="6">f. 31r</locus>
+                                <title xml:lang="eng">Q. 17:33 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="31v" to="31v" n="5">f. 31v</locus>
+                                <title xml:lang="eng">Q. 17:34 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="32r" to="32r" n="2">f. 32r</locus>
+                                <title xml:lang="eng">Q. 17:35 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="32r" to="32r" n="6">f. 32r</locus>
+                                <title xml:lang="eng">Q. 17:36 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="32v" to="32v" n="3">f. 32v</locus>
+                                <title xml:lang="eng">Q. 17:37 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="32v" to="32v" n="7">f. 32v</locus>
+                                <title xml:lang="eng">Q. 17:38 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="33r" to="33r" n="2">f. 33r</locus>
+                                <title xml:lang="eng">Q. 17:39 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="33r" to="33r" n="6">f. 33r</locus>
+                                <title xml:lang="eng">Q. 17:40 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="33v" to="33v" n="3">f. 33v</locus>
+                                <title xml:lang="eng">Q. 17:41 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="33v" to="33v" n="6">f. 33v</locus>
+                                <title xml:lang="eng">Q. 17:42 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="34r" to="34r" n="2">f. 34r</locus>
+                                <title xml:lang="eng">Q. 17:43 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="34r" to="34r" n="4">f. 34r</locus>
+                                <title xml:lang="eng">Q. 17:44 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="34v" to="34v" n="2">f. 34v</locus>
+                                <title xml:lang="eng">Q. 17:45 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="34v" to="34v" n="6">f. 34v</locus>
+                                <title xml:lang="eng">Q. 17:46 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="35r" to="35r" n="6">f. 35r</locus>
+                                <title xml:lang="eng">Q. 17:47 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="35v" to="35v" n="4">f. 35v</locus>
+                                <title xml:lang="eng">Q. 17:48 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="35v" to="35v" n="7">f. 35v</locus>
+                                <title xml:lang="eng">Q. 17:49 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="36r" to="36r" n="3">f. 36r</locus>
+                                <title xml:lang="eng">Q. 17:50 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="36r" to="36r" n="5">f. 36r</locus>
+                                <title xml:lang="eng">Q. 17:51 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="36v" to="36v" n="4">f. 36v</locus>
+                                <title xml:lang="eng">Q. 17:52 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="36v" to="36v" n="7">f. 36v</locus>
+                                <title xml:lang="eng">Q. 17:53 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="37r" to="37r" n="4">f. 37r</locus>
+                                <title xml:lang="eng">Q. 17:54 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="37v" to="37v" n="1">f. 37v</locus>
+                                <title xml:lang="eng">Q. 17:55 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="37v" to="37v" n="6">f. 37v</locus>
+                                <title xml:lang="eng">Q. 17:56 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="38r" to="38r" n="3">f. 38r</locus>
+                                <title xml:lang="eng">Q. 17:57 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="38v" to="38v" n="2">f. 38v</locus>
+                                <title xml:lang="eng">Q. 17:58 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="38v" to="38v" n="7">f. 38v</locus>
+                                <title xml:lang="eng">Q. 17:59 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="39r" to="39r" n="6">f. 39r</locus>
+                                <title xml:lang="eng">Q. 17:60 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="39v" to="39v" n="6">f. 39v</locus>
+                                <title xml:lang="eng">Q. 17:61 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="40r" to="40r" n="2">f. 40r</locus>
+                                <title xml:lang="eng">Q. 17:62 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="40r" to="40r" n="7">f. 40r</locus>
+                                <title xml:lang="eng">Q. 17:63 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="40v" to="40v" n="3">f. 40v</locus>
+                                <title xml:lang="eng">Q. 17:64 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="41r" to="41r" n="3">f. 41r</locus>
+                                <title xml:lang="eng">Q. 17:65 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="41r" to="41r" n="5">f. 41r</locus>
+                                <title xml:lang="eng">Q. 17:66 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="41v" to="41v" n="2">f. 41v</locus>
+                                <title xml:lang="eng">Q. 17:67 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="41v" to="41v" n="7">f. 41v</locus>
+                                <title xml:lang="eng">Q. 17:68 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="42r" to="42r" n="4">f. 42r</locus>
+                                <title xml:lang="eng">Q. 17:69 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="42v" to="42v" n="2">f. 42v</locus>
+                                <title xml:lang="eng">Q. 17:70 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="42v" to="42v" n="7">f. 42v</locus>
+                                <title xml:lang="eng">Q. 17:71 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="43r" to="43r" n="4">f. 43r</locus>
+                                <title xml:lang="eng">Q. 17:72 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="43r" to="43r" n="7">f. 43r</locus>
+                                <title xml:lang="eng">Q. 17:73 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="43v" to="43v" n="4">f. 43v</locus>
+                                <title xml:lang="eng">Q. 17:74 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="43v" to="43v" n="6">f. 43v</locus>
+                                <title xml:lang="eng">Q. 17:75 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="44r" to="44r" n="3">f. 44r</locus>
+                                <title xml:lang="eng">Q. 17:76 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="44r" to="44r" n="7">f. 44r</locus>
+                                <title xml:lang="eng">Q. 17:77 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="44v" to="44v" n="2">f. 44v</locus>
+                                <title xml:lang="eng">Q. 17:78 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="44v" to="44v" n="6">f. 44v</locus>
+                                <title xml:lang="eng">Q. 17:79 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="45r" to="45r" n="2">f. 45r</locus>
+                                <title xml:lang="eng">Q. 17:80 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="45r" to="45r" n="7">f. 45r</locus>
+                                <title xml:lang="eng">Q. 17:81 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="45v" to="45v" n="2">f. 45v</locus>
+                                <title xml:lang="eng">Q. 17:82 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="45v" to="45v" n="5">f. 45v</locus>
+                                <title xml:lang="eng">Q. 17:83 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="46r" to="46r" n="1">f. 46r</locus>
+                                <title xml:lang="eng">Q. 17:84 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="46r" to="46r" n="4">f. 46r</locus>
+                                <title xml:lang="eng">Q. 17:85 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="46r" to="46r" n="7">f. 46r</locus>
+                                <title xml:lang="eng">Q. 17:86 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="46v" to="46v" n="3">f. 46v</locus>
+                                <title xml:lang="eng">Q. 17:87 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="46v" to="46v" n="5">f. 46v</locus>
+                                <title xml:lang="eng">Q. 17:88 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="47r" to="47r" n="3">f. 47r</locus>
+                                <title xml:lang="eng">Q. 17:89 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="47r" to="47r" n="7">f. 47r</locus>
+                                <title xml:lang="eng">Q. 17:90 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="47v" to="47v" n="2">f. 47v</locus>
+                                <title xml:lang="eng">Q. 17:91 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="47v" to="47v" n="5">f. 47v</locus>
+                                <title xml:lang="eng">Q. 17:92 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="48r" to="48r" n="1">f. 48r</locus>
+                                <title xml:lang="eng">Q. 17:93 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="48r" to="48r" n="6">f. 48r</locus>
+                                <title xml:lang="eng">Q. 17:94 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="48v" to="48v" n="3">f. 48v</locus>
+                                <title xml:lang="eng">Q. 17:95 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="48v" to="48v" n="7">f. 48v</locus>
+                                <title xml:lang="eng">Q. 17:96 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="49r" to="49r" n="3">f. 49r</locus>
+                                <title xml:lang="eng">Q. 17:97 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="49v" to="49v" n="3">f. 49v</locus>
+                                <title xml:lang="eng">Q. 17:98 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="50r" to="50r" n="1">f. 50r</locus>
+                                <title xml:lang="eng">Q. 17:99 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="50r" to="50r" n="7">f. 50r</locus>
+                                <title xml:lang="eng">Q. 17:100 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="50v" to="50v" n="4">f. 50v</locus>
+                                <title xml:lang="eng">Q. 17:101 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="51r" to="51r" n="2">f. 51r</locus>
+                                <title xml:lang="eng">Q. 17:102 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="51r" to="51r" n="6">f. 51r</locus>
+                                <title xml:lang="eng">Q. 17:103 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="51v" to="51v" n="2">f. 51v</locus>
+                                <title xml:lang="eng">Q. 17:104 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="51v" to="51v" n="6">f. 51v</locus>
+                                <title xml:lang="eng">Q. 17:105 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="52r" to="52r" n="1">f. 52r</locus>
+                                <title xml:lang="eng">Q. 17:106 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="52r" to="52r" n="4">f. 52r</locus>
+                                <title xml:lang="eng">Q. 17:107 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="52v" to="52v" n="1">f. 52v</locus>
+                                <title xml:lang="eng">Q. 17:108 [line 1]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="52v" to="52v" n="3">f. 52v</locus>
+                                <title xml:lang="eng">Q. 17:109 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="52v" to="52v" n="6">f. 52v</locus>
+                                <title xml:lang="eng">Q. 17:110 [line 6]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="53r" to="53r" n="5">f. 53r</locus>
+                                <title xml:lang="eng">Q. 17:111 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="53v" to="53v" n="3">f. 53v</locus>
+                                <title xml:lang="eng">Sura al-Kahf: one-hundred and eleven verses
+                                    (سورة الكهف مائة واحد وعشر) [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="53v" to="53v" n="4">f. 53v</locus>
+                                <title xml:lang="eng">Basmalla [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="53v" to="53v" n="5">f. 53v</locus>
+                                <title xml:lang="eng">Q. 18:1 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="53v" to="53v" n="7">f. 53v</locus>
+                                <title xml:lang="eng">Q. 18:2 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="54r" to="54r" n="4">f. 54r</locus>
+                                <title xml:lang="eng">Q. 18:3 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="54r" to="54r" n="5">f. 54r</locus>
+                                <title xml:lang="eng">Q. 18:4 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="54r" to="54r" n="7">f. 54r</locus>
+                                <title xml:lang="eng">Q. 18:5 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="54v" to="54v" n="4">f. 54v</locus>
+                                <title xml:lang="eng">Q. 18:6 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="54v" to="54v" n="7">f. 54v</locus>
+                                <title xml:lang="eng">Q. 18:7 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="55r" to="55r" n="2">f. 55r</locus>
+                                <title xml:lang="eng">Q. 18:8 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="55r" to="55r" n="4">f. 55r</locus>
+                                <title xml:lang="eng">Q. 18:9 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="55r" to="55r" n="7">f. 55r</locus>
+                                <title xml:lang="eng">Q. 18:10 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="55v" to="55v" n="4">f. 55v</locus>
+                                <title xml:lang="eng">Q. 18:11 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="55v" to="55v" n="7">f. 55v</locus>
+                                <title xml:lang="eng">Q. 18:12 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="56r" to="56r" n="2">f. 56r</locus>
+                                <title xml:lang="eng">Q. 18:13 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="56r" to="56r" n="5">f. 56r</locus>
+                                <title xml:lang="eng">Q. 18:14 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="56v" to="56v" n="4">f. 56v</locus>
+                                <title xml:lang="eng">Q. 18:15 [line 4]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="57r" to="57r" n="2">f. 57r</locus>
+                                <title xml:lang="eng">Q. 18:16 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="57r" to="57r" n="7">f. 57r</locus>
+                                <title xml:lang="eng">Q. 18:17 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="58r" to="58r" n="2">f. 58r</locus>
+                                <title xml:lang="eng">Q. 18:18 [line 2]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="58v" to="58v" n="3">f. 58v</locus>
+                                <title xml:lang="eng">Q. 18:19 [line 3]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="59r" to="59r" n="7">f. 59r</locus>
+                                <title xml:lang="eng">Q. 18:20 [line 7]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="59v" to="59v" n="5">f. 59v</locus>
+                                <title xml:lang="eng">Q. 18:21 [line 5]</title>
+                            </msItem>
+                            <msItem defective="false">
+                                <locus from="60r" to="60r" n="7">f. 60r</locus>
+                                <title xml:lang="eng">Q. 18:22 [line 7]</title>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <extent>60 ff. <dimensions type="written" unit="cm">
+                                        <height unit="mm">18.5</height>
+                                        <width unit="mm">12.9</width>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="0" ruledLines="00" n="mistara">
+
+                                    <p>7 lines per page</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="major" script="kufic-abbasid">
+                                <p>The script seems to correspond to the Abbasid Style <term subtype="script">D I</term> as described by François
+                                    Deroche.</p>
+                                <persName unit="mm" full="yes"/>
+                            </handNote>
+                        </handDesc>
+
+                    </physDesc>
+                    <history>
+                        <origin unit="mm">
+                            <origDate calendar="Gregorian" notBefore="0800" notAfter="1000" unit="mm">9th or 10th
+                                century AD /4rd or 4th century Hijri</origDate>
+                        </origin>
+                        <provenance>Bought from <name type="person"
+                           ref="http://viaf.org/viaf/56683055"
+                           role="fmo"
+                           key="person_v56683055">
+                            <persName type="display" unit="mm" full="yes">Professor E.H. Palmer</persName>
+                            <persName type="standard" unit="mm" full="yes">Palmer, Edward Henry, 1840-1882</persName>
+                        </name> and <name type="person" role="fmo">
+                            <persName type="display" unit="mm" full="yes">E.E. Tyrwhitt Drake</persName>
+                            <persName type="standard" unit="mm" full="yes">Tyrwhitt Drake, E.E.</persName>
+                        </name> in 1878.</provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>"Manuscript description based on E. G. Browne: A hand-list
+                                    of the Muhammadan manuscripts, including all those written in
+                                    the Arabic character, preserved in the Library of the University
+                                    of Cambridge. Cambridge, 1900", enriched by staff of the Middle
+                                    Eastern Department at <orgName unit="mm" full="yes">Cambridge University
+                                        Library</orgName>.</source>
+                            </recordHist>
+                            <availability status="restricted" default="false">
+                                <p>Entry to read in the Library is permitted only on presentation of
+                                    a valid reader's card for admissions procedures contact <ref target="http://www.lib.cam.ac.uk/cgi-bin/eligibility.cgi/">Cambridge University Library Admissions</ref>. Contact
+                                        <email>near_eastern@lib.cam.ac.uk</email> for further
+                                    information on the availability of this manuscript</p>
+                            </availability>
+                            <note anchored="true"/>
+                        </adminInfo>
+                        <listBibl default="false">
+                            <biblStruct type="book" xml:id="Arberry1900">
+                                <monogr>
+                                    <title>A hand-list of the Muḥammadan manuscripts: including all
+                                        those written in the Arabic character, preserved in the
+                                        library of the University of Cambridge</title>
+                                    
+                                    <respStmt>
+                                        <resp>contributor</resp>
+                                        <persName unit="mm" full="yes">
+                                            <forename full="yes">Edward Granville</forename>
+                                            <surname full="yes">Browne</surname>
+                                        </persName>
+                                    </respStmt>
+                                    <author>
+                                        <name type="unknown">Cambridge University Library</name>
+                                    </author>
+                                    <imprint>
+                                        <pubPlace>Cambridge</pubPlace>
+                                        <publisher>University Press</publisher>
+                                        <date unit="mm">1900</date>
+
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>
+                            <biblStruct type="book" xml:id="Déroche1992">
+                                <monogr>
+                                    <title>The Abbasid tradition: Qurʼans of the 8th to the 10th
+                                        centuries AD</title>
+                                    <author>
+                                        <forename full="yes">François</forename>
+                                        <surname full="yes">Déroche</surname>
+                                    </author>
+                                    <imprint>
+                                        <pubPlace>London</pubPlace>
+                                        <publisher>The Nour Foundation in association with Azimuth
+                                            Editions and Oxford University Press</publisher>
+                                        <date unit="mm">1992</date>
+                                    </imprint>
+                                </monogr>
+                                <series>
+                                    <title>The Nasser D. Khalili Collection of Islamic Art</title>
+                                    <biblScope type="vol">v. 1</biblScope>
+                                </series>
+                                <idno type="ISBN">0197276008</idno>
+                            </biblStruct>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl default="false">
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            <taxonomy>
+               <bibl default="false">Image Role Typology</bibl>
+               <category xml:id="document-thumbnail">
+                  <catDesc>document-thumbnail</catDesc>
+               </category>
+               <category xml:id="download">
+                  <catDesc>download</catDesc>
+               </category>
+               <category xml:id="thumbnail">
+                  <catDesc>thumbnail</catDesc>
+               </category>
+            </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="#LCSH">
+                    <list type="simple">
+                        <item>
+                     <term key="subject_sh85072953#concept">Koran</term>
+                  </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-01-01">
+                <persName unit="mm" full="yes">Ignacio Sanchez</persName>
+            </change>
+            <!-- Your revisionDesc should include information concerning 
+                major changes to the electronic file.  Replace the above 
+                with something more suitable.   -->
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail"
+               rend="landscape"
+               url="MS-ADD-01132-000-00001"/>
+        <surface n="cover" xml:id="i1">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="5277px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00001"/>
+      </surface>
+        <surface n="cover (inside)" xml:id="i2">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="5060px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00002"/>
+      </surface>
+        <surface n="1r" xml:id="i3">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4917px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00003"/>
+      </surface>
+        <surface n="1v" xml:id="i4">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00004"/>
+      </surface>
+        <surface n="2r" xml:id="i5">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4917px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00005"/>
+      </surface>
+        <surface n="2v" xml:id="i6">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00006"/>
+      </surface>
+        <surface n="3r" xml:id="i7">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4917px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00007"/>
+      </surface>
+        <surface n="3v" xml:id="i8">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00008"/>
+      </surface>
+        <surface n="4r" xml:id="i9">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4917px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00009"/>
+      </surface>
+        <surface n="4v" xml:id="i10">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00010"/>
+      </surface>
+        <surface n="5r" xml:id="i11">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4917px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00011"/>
+      </surface>
+        <surface n="5v" xml:id="i12">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00012"/>
+      </surface>
+        <surface n="6r" xml:id="i13">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4917px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00013"/>
+      </surface>
+        <surface n="6v" xml:id="i14">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00014"/>
+      </surface>
+        <surface n="7r" xml:id="i15">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4917px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00015"/>
+      </surface>
+        <surface n="7v" xml:id="i16">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00016"/>
+      </surface>
+        <surface n="8r" xml:id="i17">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4917px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00017"/>
+      </surface>
+        <surface n="8v" xml:id="i18">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00018"/>
+      </surface>
+        <surface n="9r" xml:id="i19">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4917px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00019"/>
+      </surface>
+        <surface n="9v" xml:id="i20">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00020"/>
+      </surface>
+        <surface n="10r" xml:id="i21">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4917px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00021"/>
+      </surface>
+        <surface n="10v" xml:id="i22">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00022"/>
+      </surface>
+        <surface n="11r" xml:id="i23">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4917px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00023"/>
+      </surface>
+        <surface n="11v" xml:id="i24">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00024"/>
+      </surface>
+        <surface n="12r" xml:id="i25">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4917px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00025"/>
+      </surface>
+        <surface n="12v" xml:id="i26">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00026"/>
+      </surface>
+        <surface n="13r" xml:id="i27">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4917px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00027"/>
+      </surface>
+        <surface n="13v" xml:id="i28">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00028"/>
+      </surface>
+        <surface n="14r" xml:id="i29">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4917px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00029"/>
+      </surface>
+        <surface n="14v" xml:id="i30">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00030"/>
+      </surface>
+        <surface n="15r" xml:id="i31">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4917px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00031"/>
+      </surface>
+        <surface n="15v" xml:id="i32">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00032"/>
+      </surface>
+        <surface n="16r" xml:id="i33">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4917px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00033"/>
+      </surface>
+        <surface n="16v" xml:id="i34">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00034"/>
+      </surface>
+        <surface n="17r" xml:id="i35">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4917px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00035"/>
+      </surface>
+        <surface n="17v" xml:id="i36">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00036"/>
+      </surface>
+        <surface n="18r" xml:id="i37">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4917px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00037"/>
+      </surface>
+        <surface n="18v" xml:id="i38">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00038"/>
+      </surface>
+        <surface n="19r" xml:id="i39">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00039"/>
+      </surface>
+        <surface n="19v" xml:id="i40">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00040"/>
+      </surface>
+        <surface n="20r" xml:id="i41">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00041"/>
+      </surface>
+        <surface n="20v" xml:id="i42">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00042"/>
+      </surface>
+        <surface n="21r" xml:id="i43">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00043"/>
+      </surface>
+        <surface n="21v" xml:id="i44">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00044"/>
+      </surface>
+        <surface n="22r" xml:id="i45">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00045"/>
+      </surface>
+        <surface n="22v" xml:id="i46">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00046"/>
+      </surface>
+        <surface n="23r" xml:id="i47">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00047"/>
+      </surface>
+        <surface n="23v" xml:id="i48">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00048"/>
+      </surface>
+        <surface n="24r" xml:id="i49">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00049"/>
+      </surface>
+        <surface n="24v" xml:id="i50">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00050"/>
+      </surface>
+        <surface n="25r" xml:id="i51">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00051"/>
+      </surface>
+        <surface n="25v" xml:id="i52">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00052"/>
+      </surface>
+        <surface n="26r" xml:id="i53">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00053"/>
+      </surface>
+        <surface n="26v" xml:id="i54">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00054"/>
+      </surface>
+        <surface n="27r" xml:id="i55">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00055"/>
+      </surface>
+        <surface n="27v" xml:id="i56">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00056"/>
+      </surface>
+        <surface n="28r" xml:id="i57">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00057"/>
+      </surface>
+        <surface n="28v" xml:id="i58">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00058"/>
+      </surface>
+        <surface n="29r" xml:id="i59">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00059"/>
+      </surface>
+        <surface n="29v" xml:id="i60">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00060"/>
+      </surface>
+        <surface n="30r" xml:id="i61">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00061"/>
+      </surface>
+        <surface n="30v" xml:id="i62">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00062"/>
+      </surface>
+        <surface n="31r" xml:id="i63">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00063"/>
+      </surface>
+        <surface n="31v" xml:id="i64">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00064"/>
+      </surface>
+        <surface n="32r" xml:id="i65">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00065"/>
+      </surface>
+        <surface n="32v" xml:id="i66">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00066"/>
+      </surface>
+        <surface n="33r" xml:id="i67">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00067"/>
+      </surface>
+        <surface n="33v" xml:id="i68">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00068"/>
+      </surface>
+        <surface n="34r" xml:id="i69">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00069"/>
+      </surface>
+        <surface n="34v" xml:id="i70">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00070"/>
+      </surface>
+        <surface n="35r" xml:id="i71">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00071"/>
+      </surface>
+        <surface n="35v" xml:id="i72">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00072"/>
+      </surface>
+        <surface n="36r" xml:id="i73">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00073"/>
+      </surface>
+        <surface n="36v" xml:id="i74">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00074"/>
+      </surface>
+        <surface n="37r" xml:id="i75">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00075"/>
+      </surface>
+        <surface n="37v" xml:id="i76">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00076"/>
+      </surface>
+        <surface n="38r" xml:id="i77">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00077"/>
+      </surface>
+        <surface n="38v" xml:id="i78">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00078"/>
+      </surface>
+        <surface n="39r" xml:id="i79">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00079"/>
+      </surface>
+        <surface n="39v" xml:id="i80">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00080"/>
+      </surface>
+        <surface n="40r" xml:id="i81">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00081"/>
+      </surface>
+        <surface n="40v" xml:id="i82">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00082"/>
+      </surface>
+        <surface n="41r" xml:id="i83">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00083"/>
+      </surface>
+        <surface n="41v" xml:id="i84">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00084"/>
+      </surface>
+        <surface n="42r" xml:id="i85">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00085"/>
+      </surface>
+        <surface n="42v" xml:id="i86">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00086"/>
+      </surface>
+        <surface n="43r" xml:id="i87">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00087"/>
+      </surface>
+        <surface n="43v" xml:id="i88">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00088"/>
+      </surface>
+        <surface n="44r" xml:id="i89">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00089"/>
+      </surface>
+        <surface n="44v" xml:id="i90">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00090"/>
+      </surface>
+        <surface n="45r" xml:id="i91">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00091"/>
+      </surface>
+        <surface n="45v" xml:id="i92">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00092"/>
+      </surface>
+        <surface n="46r" xml:id="i93">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00093"/>
+      </surface>
+        <surface n="46v" xml:id="i94">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00094"/>
+      </surface>
+        <surface n="47r" xml:id="i95">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00095"/>
+      </surface>
+        <surface n="47v" xml:id="i96">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00096"/>
+      </surface>
+        <surface n="48r" xml:id="i97">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00097"/>
+      </surface>
+        <surface n="48v" xml:id="i98">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00098"/>
+      </surface>
+        <surface n="49r" xml:id="i99">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00099"/>
+      </surface>
+        <surface n="49v" xml:id="i100">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00100"/>
+      </surface>
+        <surface n="50r" xml:id="i101">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00101"/>
+      </surface>
+        <surface n="50v" xml:id="i102">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00102"/>
+      </surface>
+        <surface n="51r" xml:id="i103">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00103"/>
+      </surface>
+        <surface n="51v" xml:id="i104">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00104"/>
+      </surface>
+        <surface n="52r" xml:id="i105">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00105"/>
+      </surface>
+        <surface n="52v" xml:id="i106">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00106"/>
+      </surface>
+        <surface n="53r" xml:id="i107">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00107"/>
+      </surface>
+        <surface n="53v" xml:id="i108">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00108"/>
+      </surface>
+        <surface n="54r" xml:id="i109">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00109"/>
+      </surface>
+        <surface n="54v" xml:id="i110">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00110"/>
+      </surface>
+        <surface n="55r" xml:id="i111">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00111"/>
+      </surface>
+        <surface n="55v" xml:id="i112">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00112"/>
+      </surface>
+        <surface n="56r" xml:id="i113">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00113"/>
+      </surface>
+        <surface n="56v" xml:id="i114">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00114"/>
+      </surface>
+        <surface n="57r" xml:id="i115">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00115"/>
+      </surface>
+        <surface n="57v" xml:id="i116">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00116"/>
+      </surface>
+        <surface n="58r" xml:id="i117">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00117"/>
+      </surface>
+        <surface n="58v" xml:id="i118">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00118"/>
+      </surface>
+        <surface n="59r" xml:id="i119">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00119"/>
+      </surface>
+        <surface n="59v" xml:id="i120">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00120"/>
+      </surface>
+        <surface n="60r" xml:id="i121">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00121"/>
+      </surface>
+        <surface n="60v" xml:id="i122">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00122"/>
+      </surface>
+        <surface n="61r" xml:id="i123">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4630px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00123"/>
+      </surface>
+        <surface n="61v" xml:id="i124">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="4876px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00124"/>
+      </surface>
+        <surface n="back cover (inside)" xml:id="i125">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="5060px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00125"/>
+      </surface>
+        <surface n="back cover" xml:id="i126">
+         <graphic decls="#downloadImageRights #download"
+                  height="4625px"
+                  width="5242px"
+                  rend="landscape"
+                  url="MS-ADD-01132-000-00126"/>
+      </surface>
+        <surface n="spine" xml:id="i127">
+         <graphic decls="#downloadImageRights #download"
+                  height="4892px"
+                  width="2624px"
+                  rend="portrait"
+                  url="MS-ADD-01132-000-00127"/>
+      </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div org="uniform" sample="complete" part="N">
+                <pb xml:id="Lg-cover" n="cover" facs="#i1"/>
+                <pb xml:id="Lg-cover (inside)" n="cover (inside)" facs="#i2"/>
+                <pb xml:id="Lg-1r" n="1r" facs="#i3"/>
+                <pb xml:id="Lg-1v" n="1v" facs="#i4"/>
+                <pb xml:id="Lg-2r" n="2r" facs="#i5"/>
+                <pb xml:id="Lg-2v" n="2v" facs="#i6"/>
+                <pb xml:id="Lg-3r" n="3r" facs="#i7"/>
+                <pb xml:id="Lg-3v" n="3v" facs="#i8"/>
+                <pb xml:id="Lg-4r" n="4r" facs="#i9"/>
+                <pb xml:id="Lg-4v" n="4v" facs="#i10"/>
+                <pb xml:id="Lg-5r" n="5r" facs="#i11"/>
+                <pb xml:id="Lg-5v" n="5v" facs="#i12"/>
+                <pb xml:id="Lg-6r" n="6r" facs="#i13"/>
+                <pb xml:id="Lg-6v" n="6v" facs="#i14"/>
+                <pb xml:id="Lg-7r" n="7r" facs="#i15"/>
+                <pb xml:id="Lg-7v" n="7v" facs="#i16"/>
+                <pb xml:id="Lg-8r" n="8r" facs="#i17"/>
+                <pb xml:id="Lg-8v" n="8v" facs="#i18"/>
+                <pb xml:id="Lg-9r" n="9r" facs="#i19"/>
+                <pb xml:id="Lg-9v" n="9v" facs="#i20"/>
+                <pb xml:id="Lg-10r" n="10r" facs="#i21"/>
+                <pb xml:id="Lg-10v" n="10v" facs="#i22"/>
+                <pb xml:id="Lg-11r" n="11r" facs="#i23"/>
+                <pb xml:id="Lg-11v" n="11v" facs="#i24"/>
+                <pb xml:id="Lg-12r" n="12r" facs="#i25"/>
+                <pb xml:id="Lg-12v" n="12v" facs="#i26"/>
+                <pb xml:id="Lg-13r" n="13r" facs="#i27"/>
+                <pb xml:id="Lg-13v" n="13v" facs="#i28"/>
+                <pb xml:id="Lg-14r" n="14r" facs="#i29"/>
+                <pb xml:id="Lg-14v" n="14v" facs="#i30"/>
+                <pb xml:id="Lg-15r" n="15r" facs="#i31"/>
+                <pb xml:id="Lg-15v" n="15v" facs="#i32"/>
+                <pb xml:id="Lg-16r" n="16r" facs="#i33"/>
+                <pb xml:id="Lg-16v" n="16v" facs="#i34"/>
+                <pb xml:id="Lg-17r" n="17r" facs="#i35"/>
+                <pb xml:id="Lg-17v" n="17v" facs="#i36"/>
+                <pb xml:id="Lg-18r" n="18r" facs="#i37"/>
+                <pb xml:id="Lg-18v" n="18v" facs="#i38"/>
+                <pb xml:id="Lg-19r" n="19r" facs="#i39"/>
+                <pb xml:id="Lg-19v" n="19v" facs="#i40"/>
+                <pb xml:id="Lg-20r" n="20r" facs="#i41"/>
+                <pb xml:id="Lg-20v" n="20v" facs="#i42"/>
+                <pb xml:id="Lg-21r" n="21r" facs="#i43"/>
+                <pb xml:id="Lg-21v" n="21v" facs="#i44"/>
+                <pb xml:id="Lg-22r" n="22r" facs="#i45"/>
+                <pb xml:id="Lg-22v" n="22v" facs="#i46"/>
+                <pb xml:id="Lg-23r" n="23r" facs="#i47"/>
+                <pb xml:id="Lg-23v" n="23v" facs="#i48"/>
+                <pb xml:id="Lg-24r" n="24r" facs="#i49"/>
+                <pb xml:id="Lg-24v" n="24v" facs="#i50"/>
+                <pb xml:id="Lg-25r" n="25r" facs="#i51"/>
+                <pb xml:id="Lg-25v" n="25v" facs="#i52"/>
+                <pb xml:id="Lg-26r" n="26r" facs="#i53"/>
+                <pb xml:id="Lg-26v" n="26v" facs="#i54"/>
+                <pb xml:id="Lg-27r" n="27r" facs="#i55"/>
+                <pb xml:id="Lg-27v" n="27v" facs="#i56"/>
+                <pb xml:id="Lg-28r" n="28r" facs="#i57"/>
+                <pb xml:id="Lg-28v" n="28v" facs="#i58"/>
+                <pb xml:id="Lg-29r" n="29r" facs="#i59"/>
+                <pb xml:id="Lg-29v" n="29v" facs="#i60"/>
+                <pb xml:id="Lg-30r" n="30r" facs="#i61"/>
+                <pb xml:id="Lg-30v" n="30v" facs="#i62"/>
+                <pb xml:id="Lg-31r" n="31r" facs="#i63"/>
+                <pb xml:id="Lg-31v" n="31v" facs="#i64"/>
+                <pb xml:id="Lg-32r" n="32r" facs="#i65"/>
+                <pb xml:id="Lg-32v" n="32v" facs="#i66"/>
+                <pb xml:id="Lg-33r" n="33r" facs="#i67"/>
+                <pb xml:id="Lg-33v" n="33v" facs="#i68"/>
+                <pb xml:id="Lg-34r" n="34r" facs="#i69"/>
+                <pb xml:id="Lg-34v" n="34v" facs="#i70"/>
+                <pb xml:id="Lg-35r" n="35r" facs="#i71"/>
+                <pb xml:id="Lg-35v" n="35v" facs="#i72"/>
+                <pb xml:id="Lg-36r" n="36r" facs="#i73"/>
+                <pb xml:id="Lg-36v" n="36v" facs="#i74"/>
+                <pb xml:id="Lg-37r" n="37r" facs="#i75"/>
+                <pb xml:id="Lg-37v" n="37v" facs="#i76"/>
+                <pb xml:id="Lg-38r" n="38r" facs="#i77"/>
+                <pb xml:id="Lg-38v" n="38v" facs="#i78"/>
+                <pb xml:id="Lg-39r" n="39r" facs="#i79"/>
+                <pb xml:id="Lg-39v" n="39v" facs="#i80"/>
+                <pb xml:id="Lg-40r" n="40r" facs="#i81"/>
+                <pb xml:id="Lg-40v" n="40v" facs="#i82"/>
+                <pb xml:id="Lg-41r" n="41r" facs="#i83"/>
+                <pb xml:id="Lg-41v" n="41v" facs="#i84"/>
+                <pb xml:id="Lg-42r" n="42r" facs="#i85"/>
+                <pb xml:id="Lg-42v" n="42v" facs="#i86"/>
+                <pb xml:id="Lg-43r" n="43r" facs="#i87"/>
+                <pb xml:id="Lg-43v" n="43v" facs="#i88"/>
+                <pb xml:id="Lg-44r" n="44r" facs="#i89"/>
+                <pb xml:id="Lg-44v" n="44v" facs="#i90"/>
+                <pb xml:id="Lg-45r" n="45r" facs="#i91"/>
+                <pb xml:id="Lg-45v" n="45v" facs="#i92"/>
+                <pb xml:id="Lg-46r" n="46r" facs="#i93"/>
+                <pb xml:id="Lg-46v" n="46v" facs="#i94"/>
+                <pb xml:id="Lg-47r" n="47r" facs="#i95"/>
+                <pb xml:id="Lg-47v" n="47v" facs="#i96"/>
+                <pb xml:id="Lg-48r" n="48r" facs="#i97"/>
+                <pb xml:id="Lg-48v" n="48v" facs="#i98"/>
+                <pb xml:id="Lg-49r" n="49r" facs="#i99"/>
+                <pb xml:id="Lg-49v" n="49v" facs="#i100"/>
+                <pb xml:id="Lg-50r" n="50r" facs="#i101"/>
+                <pb xml:id="Lg-50v" n="50v" facs="#i102"/>
+                <pb xml:id="Lg-51r" n="51r" facs="#i103"/>
+                <pb xml:id="Lg-51v" n="51v" facs="#i104"/>
+                <pb xml:id="Lg-52r" n="52r" facs="#i105"/>
+                <pb xml:id="Lg-52v" n="52v" facs="#i106"/>
+                <pb xml:id="Lg-53r" n="53r" facs="#i107"/>
+                <pb xml:id="Lg-53v" n="53v" facs="#i108"/>
+                <pb xml:id="Lg-54r" n="54r" facs="#i109"/>
+                <pb xml:id="Lg-54v" n="54v" facs="#i110"/>
+                <pb xml:id="Lg-55r" n="55r" facs="#i111"/>
+                <pb xml:id="Lg-55v" n="55v" facs="#i112"/>
+                <pb xml:id="Lg-56r" n="56r" facs="#i113"/>
+                <pb xml:id="Lg-56v" n="56v" facs="#i114"/>
+                <pb xml:id="Lg-57r" n="57r" facs="#i115"/>
+                <pb xml:id="Lg-57v" n="57v" facs="#i116"/>
+                <pb xml:id="Lg-58r" n="58r" facs="#i117"/>
+                <pb xml:id="Lg-58v" n="58v" facs="#i118"/>
+                <pb xml:id="Lg-59r" n="59r" facs="#i119"/>
+                <pb xml:id="Lg-59v" n="59v" facs="#i120"/>
+                <pb xml:id="Lg-60r" n="60r" facs="#i121"/>
+                <pb xml:id="Lg-60v" n="60v" facs="#i122"/>
+                <pb xml:id="Lg-61r" n="61r" facs="#i123"/>
+                <pb xml:id="Lg-61v" n="61v" facs="#i124"/>
+                <pb xml:id="Lg-back cover (inside)"
+                n="back cover (inside)"
+                facs="#i125"/>
+                <pb xml:id="Lg-back cover" n="back cover" facs="#i126"/>
+                <pb xml:id="Lg-spine" n="spine" facs="#i127"/>
+            </div>
+        </body>
+    </text>
+
+</TEI>

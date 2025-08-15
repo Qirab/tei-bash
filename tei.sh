@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 # tei.sh - TEI P5 XML Processing Script (Modernized Bash 4)
 # 
