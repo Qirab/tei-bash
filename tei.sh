@@ -23,7 +23,7 @@ if [[ ${BASH_VERSION%%.*} -lt 4 ]]; then
   exit 1
 fi
 
-i# dont use set -o errexit for your own sanity
+# dont use set -o errexit for your own sanity
 set -o pipefail # Exit on pipe failure
 set -o nounset  # Exit on undefined variable (now safe with Bash 4)
 
@@ -1172,8 +1172,8 @@ detect_format() {
   # Read first 20 lines for detection
   first_lines=$(head -n 20 "$file" 2>/dev/null || true)
 
-  # Check for TEI XML format
-  if [[ "$first_lines" =~ \<\?xml ]] && [[ "$first_lines" =~ \<TEI ]]; then
+  # Check for TEI XML format - TEI element is required, XML declaration is optional
+  if [[ "$first_lines" =~ \<TEI[[:space:]] ]] || [[ "$first_lines" =~ \<TEI\> ]]; then
     echo "tei-xml"
   else
     echo "unknown"

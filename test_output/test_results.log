@@ -1,0 +1,54 @@
+[13:22:42] PASS: help display
+[13:22:42] PASS: read: testbare.xml
+[13:22:43] PASS: read: testminimal.xml
+[13:22:45] PASS: read: MS-ADD-01132.xml
+[13:22:45] PASS: read: testbasic.xml
+[13:22:49] PASS: read: testms.xml
+[13:22:50] PASS: read: torture.xml
+[13:22:51] PASS: read: testall.xml
+[13:22:53] PASS: read: testnames.xml
+[13:22:55] PASS: read: testplace.xml
+[13:23:02] PASS: read: testchinese.xml
+[13:23:03] PASS: read: testdrama.xml
+[13:23:04] PASS: read: testtranscr.xml
+[13:23:04] PASS: read: testbibl.xml
+[13:23:05] PASS: read: testfsd.xml
+[13:23:05] PASS: read: testrdf.xml
+[13:23:06] PASS: validate: testbare.xml
+[13:23:07] PASS: validate: testminimal.xml
+[13:23:08] PASS: validate: MS-ADD-01132.xml
+[13:23:09] PASS: validate: testbasic.xml
+[13:23:12] PASS: validate: testms.xml
+[13:23:13] PASS: validate: torture.xml
+[13:23:15] PASS: validate: testall.xml
+[13:23:15] PASS: validate (expected invalid): antruntest.xml
+[13:23:16] PASS: extract 'fileDesc.titleStmt.title': MS-ADD-01132.xml
+[13:23:18] PASS: extract 'persName': MS-ADD-01132.xml
+[13:23:19] PASS: extract 'placeName': MS-ADD-01132.xml
+[13:23:21] PASS: extract 'date': MS-ADD-01132.xml
+[13:23:23] PASS: extract 'persName': testnames.xml
+[13:23:25] PASS: extract 'placeName': testnames.xml
+[13:23:27] PASS: extract 'orgName': testnames.xml
+[13:23:27] PASS: write: test_basic
+[13:23:27] PASS: write: test_full
+[13:23:28] PASS: error handling: missing file
+[13:23:28] PASS: error handling: invalid option
+[13:23:28] PASS: error handling: write without output
+[13:23:28] PASS: error handling: write without terms
+[13:23:29] PASS: short option: -r (read)
+[13:23:31] PASS: short option: -V (validate)
+[13:23:32] PASS: short option: -t (term)
+[13:23:32] BULK FAIL: antruntest.xml
+[13:23:36] BULK FAIL: names-demo-en.xml
+[13:23:36] BULK FAIL: newcontentmodel.xml
+[13:23:53] BULK FAIL: testcorpus.xml
+[13:23:54] BULK FAIL: testdocbook2.xml
+[13:23:54] BULK FAIL: testdocbook3.xml
+[13:23:56] BULK FAIL: testerrmav.xml
+[13:24:00] BULK FAIL: testjustfs.xml
+[13:24:03] BULK FAIL: testmixedup.xml
+[13:24:09] BULK FAIL: testoucs.xml
+[13:24:09] BULK FAIL: testp4compat.xml
+[13:24:15] BULK FAIL: testtite.xml
+[13:24:15] BULK FAIL: testtite2.xml
+[13:24:21] PASS: bulk read test (51/64 files)
